@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import DataTable from './DataTable';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="container mt-3">
-        <DataTable rows={this.props.rows} locale="da" rowsPerPage={5} />
-      </div>
-    );
-  }
-}
+const App = () => {
+  //TODO in most of cases data comes from API we should use hook to fetch data
+  const rows = JSON.parse(document.getElementById('user-data').dataset.users);
+
+  return (
+    <div className="container mt-3">
+      <DataTable rows={rows} rowsPerPage={5} />
+    </div>
+  );
+};
 
 export default App;

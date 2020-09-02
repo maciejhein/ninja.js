@@ -4411,6 +4411,11 @@ form-data@~2.3.2:
     combined-stream "^1.0.6"
     mime-types "^2.1.12"
 
+"format@prettier --write \"src/**/*.js\"":
+  version "0.2.2"
+  resolved "https://artifactory.acoustic.co/artifactory/api/npm/ca-npm-virtual/format/-/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
+  integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
+
 forwarded@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
@@ -8275,6 +8280,11 @@ prelude-ls@~1.1.2:
 prepend-http@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
+
+prettier@^2.1.1:
+  version "2.1.1"
+  resolved "https://artifactory.acoustic.co/artifactory/api/npm/ca-npm-virtual/prettier/-/prettier-2.1.1.tgz#d9485dd5e499daa6cb547023b87a6cf51bee37d6"
+  integrity sha1-2Uhd1eSZ2qbLVHAjuHps9RvuN9Y=
 
 pretty-bytes@^5.1.0:
   version "5.3.0"
