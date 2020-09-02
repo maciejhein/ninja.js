@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search renders without crashing 1`] = `
+<div
+  className="p-b-1"
+>
+  <input
+    className="form-control"
+    onChange={[MockFunction]}
+    placeholder="Søg brugere"
+    type="search"
+  />
+</div>
+`;
+
+exports[`Search should renders correctly 1`] = `
+<div
+  className="p-b-1"
+>
+  <input
+    className="form-control"
+    onChange={[MockFunction]}
+    placeholder="Søg brugere"
+    type="search"
+  />
+</div>
+`;

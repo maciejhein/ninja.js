@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should renders correctly  1`] = `
+<ul
+  className="pagination"
+>
+  <Component
+    currentPageNumber={1}
+    isActive={false}
+    key="0"
+    onChange={[MockFunction]}
+    pageNumber={0}
+  />
+  <Component
+    currentPageNumber={1}
+    isActive={true}
+    key="1"
+    onChange={[MockFunction]}
+    pageNumber={1}
+  />
+  <Component
+    currentPageNumber={1}
+    isActive={false}
+    key="2"
+    onChange={[MockFunction]}
+    pageNumber={2}
+  />
+</ul>
+`;

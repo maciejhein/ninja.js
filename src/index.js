@@ -3,4 +3,7 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+const rows = JSON.parse(document.getElementById('user-data').dataset.users);
+
+ReactDOM.render(<App rows={rows} />, document.getElementById('root'));
