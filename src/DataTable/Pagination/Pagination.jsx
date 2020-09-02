@@ -7,7 +7,7 @@ const Pagination = ({ currentPageNumber, totalNumberOfPages, onChange }) => {
     return null;
   }
 
-  const pages =Array.from(Array(totalNumberOfPages).keys())
+  const pages =Array.from(Array(totalNumberOfPages).keys());
 
   return(
     <ul className="pagination">
