@@ -4,7 +4,7 @@ import { mount, shallow } from 'enzyme';
 import PaginationItem from './PaginationItems';
 
 describe('PaginationItem', () => {
-  let props; 
+  let props;
 
   beforeEach(() => {
     props = {
@@ -25,14 +25,14 @@ describe('PaginationItem', () => {
 
     component.find('button').simulate('click');
 
-    expect(props.onChange).toHaveBeenCalled(); 
+    expect(props.onChange).toHaveBeenCalled();
   });
 
   it('should render button with class `button-outline` when page is active', () => {
     const newProps = {
       ...props,
-      isActive: true
-    }
+      isActive: true,
+    };
     const component = mount(<PaginationItem {...newProps} />);
 
     expect(component.find('button').hasClass('button-outline')).toBe(true);

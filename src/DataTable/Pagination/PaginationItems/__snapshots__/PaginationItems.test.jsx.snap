@@ -12,3 +12,16 @@ exports[`PaginationItem renders correctly  1`] = `
   </button>
 </li>
 `;
+
+exports[`PaginationItem should renders correctly  1`] = `
+<li
+  className="page-item mr-1"
+>
+  <button
+    className="page-link "
+    onClick={[Function]}
+  >
+    1
+  </button>
+</li>
+`;
