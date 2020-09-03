@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { row } from '../../types';
+
 const Row = ({ row }) => {
   return (
     <tr>
@@ -10,6 +12,10 @@ const Row = ({ row }) => {
       </td>
     </tr>
   );
+};
+
+Row.propTypes = {
+  row: row.isRequired,
 };
 
 export default Row;

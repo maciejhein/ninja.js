@@ -1,5 +1,7 @@
 import React, { useState, useMemo } from 'react';
+import PropTypes from 'prop-types';
 
+import { row } from '../types';
 import Pagination from './Pagination';
 import Row from './Row';
 import Search from './Search';
@@ -43,6 +45,11 @@ const DataTable = ({ rows, rowsPerPage = 40 }) => {
       />
     </div>
   );
+};
+
+DataTable.propTypes = {
+  rows: PropTypes.arrayOf(row).isRequired,
+  rowsPerPage: PropTypes.number
 };
 
 export default DataTable;
