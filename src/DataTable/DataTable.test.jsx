@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import { rows } from '../__mocks__'
+import { rows } from '../__mocks__';
 import DataTable from './DataTable';
 
 jest.mock('./Pagination', () => () => 'Pagination');
